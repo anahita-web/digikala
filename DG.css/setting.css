@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:DGK,homa;
+}
+@font-face {
+    font-family:DGk;
+    src: url(../fonts/IRANYekanWeb-Medium.eot);
+    src: url(../fonts/IRANYekanWeb-Medium.ttf);
+    src: url(../fonts/IRANYekanWeb-Medium.woff);
+    src: url(../fonts/IRANYekanWeb-Medium.woff2);
+}
+@font-face {
+    font-family:homa;
+    src: url(../fonts/homa/BHoma.eot);
+    src: url(../fonts/homa/BHoma.ttf);
+    src: url(../fonts/homa/BHoma.woff);
+    src: url(../fonts/homa/BHoma.woff2);
+
+}
+body{
+    min-height: 6800px;
+}

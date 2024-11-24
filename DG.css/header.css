@@ -1,0 +1,379 @@
+/*start_headers*/
+header{ 
+    width:100%;
+    height:110px;
+    box-shadow: 0px 2px 1px #c2c2c2;
+    position: sticky;
+    top: 0%;
+    background-color: white;
+    z-index: 99;
+
+.first_header{
+    width:inherit;
+    height:66px;
+   padding-left:8px;
+
+    display: flex;
+    .logo{
+     
+        width:15%;
+        height:inherit;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .logo1{
+            width:195px;
+            height:30px;
+            object-fit:contain;
+
+        }
+
+    }
+    .search{
+        width:69%;
+        height:inherit;
+  
+        display: flex;
+        align-items: center;
+        .search_box{
+            width:600px;
+            height:44px;
+            background-color:rgb(240,240,241) ;
+            border-radius:8px;
+            display: flex;
+            align-items: center;
+            padding:0 16px;
+            .cap{
+                width:24px;
+                fill:rgb(161,163,168)
+               
+            }
+            .search_text{
+                width:calc(100% - 24px);
+                font-size:12px;
+               border: 0cap;
+               background-color: transparent;
+               padding-right:16px;
+               &:focus{
+                outline: 0;
+               }
+               
+            }
+
+          
+        }
+    }
+    .start{
+        width:220px;
+        height:inherit;
+        margin-right:auto;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+       
+        .resign{
+            width:134px;
+            height:40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding:8px 16px;
+            border-radius:8px;
+            border:1px solid rgb(236,236,237);
+            font-size:12px;
+            text-decoration: none;
+            color:black;
+            gap:4px;
+            word-spacing:0.1px;
+            
+            }
+
+            .basket{
+                width:24px;
+            }
+            span{
+                width:2px;
+                height:14px;
+                background-color:rgb(59,43,12) ;
+            }
+        }
+        .vertical_line{
+            width:1px;
+            height:25px;
+            background-color:rgb(224,224,226) ;
+            margin:0px 12px;    
+        }
+
+        .svg_container{
+            display: flex;
+            align-items: center;
+            margin-right:10px;
+           .contain{
+            width:24px;
+           } 
+        }
+
+
+
+
+}
+.second_header{
+    width:inherit;
+    height:44px;
+    padding:0 16px;
+    display: flex;
+    .right_bttn{
+        width:85%;
+        height: inherit;
+      
+        nav{ 
+            width:100%;
+            height:100%;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+           
+       
+        .category__bttn{
+            width:142px;
+            height:inherit;
+          
+            display: flex;
+            align-items: center;
+           
+            .category__of__products{
+                color:#3f4064;
+                font-size:14px;
+                text-decoration: none;
+                display: flex;
+                align-items: center;
+                .list_icon{
+                    width:20px;
+                    height:20px;
+
+    
+                }
+              
+            }
+        }
+        .short__line{
+            width:1px;
+            height:16px;
+            background-color: #62666D;
+            
+        }
+        .bttn1{
+            width:116px;
+            height:inherit;
+            padding:0 12px;
+            display: flex;
+            align-items: center;
+           
+            .first__bttn{
+                color:#62666D;
+                font-size:12px;
+                text-decoration: none;
+                display: flex;
+                align-items: center;
+                word-spacing:1px;
+                .list_icon{
+                    width:18px;
+                    height:18px;
+                    fill: #62666D;
+
+    
+                }
+              
+            }
+        }
+        .bttn2{
+            width:100px;
+            height:inherit;
+
+            display: flex;
+            align-items: center;
+           padding:0 12px;
+            .second__bttn{
+                color:#62666D;
+                font-size:12px;
+                text-decoration: none;
+                display: flex;
+                align-items: center;
+                word-spacing:1px;
+                .list_icon{
+                    width:18px;
+                    height:18px;
+                    fill: #62666D;
+    
+                }
+              
+            }
+        }
+        .bttn3{
+            width:100px;
+            height:inherit;
+            display: flex;
+            align-items: center;
+            padding:0 12px;
+           
+            .third__bttn{
+                color:#62666D;
+                font-size:12px;
+                text-decoration: none;
+                display: flex;
+                align-items: center;
+                word-spacing:1px;
+                gap:2px;
+                
+                .card__icon{
+                    width:18px;
+                    height:18px;
+                    fill: #62666D;
+    
+                }
+              
+            }
+        }
+        .bttn4{
+            width:128px;
+            height:inherit;
+            display: flex;
+            align-items: center;
+           padding:0 10px;
+            .second__bttn{
+                color:#62666D;
+                font-size:12px;
+                text-decoration: none;
+                display: flex;
+                align-items: center;
+                word-spacing:1px;
+                .fire_icon{
+                    width:18px;
+                    height:18px;
+                    fill: #62666D;
+    
+                }
+              
+            }
+        }
+        .bttn5{
+            width:160px;
+            height:inherit;
+            padding:0 10px;
+            display: flex;
+            align-items: center;
+           
+            .second__bttn{
+                color:#62666D;
+                font-size:12px;
+                text-decoration: none;
+                display: flex;
+                align-items: center;
+                word-spacing:1px;
+                .discount_icon{
+                    width:18px;
+                    height:18px;
+                    fill: #62666D;
+                    margin-left:4px;
+    
+                }
+              
+            }
+        }
+        .bttn6{
+            width:99px;
+            height:inherit;
+            padding:0 12px;
+            display: flex;
+            align-items: center;
+           
+            .second__bttn{
+                color:#62666D;
+                font-size:12px;
+                text-decoration: none;
+                display: flex;
+                align-items: center;
+                word-spacing:1px;
+              
+            }
+        }
+        .bttn7{
+            width:136px;
+            height:inherit;
+
+            display: flex;
+            align-items: center;
+           padding:0 12px;
+            .second__bttn{
+                color:#62666D;
+                font-size:12px;
+                text-decoration: none;
+                display: flex;
+                align-items: center;
+                word-spacing:1px;
+                .list_icon{
+                    width:20px;
+                    height:20px;
+
+    
+                }
+              
+            }
+        }
+        .bttn8{
+            width:100px;
+            height:inherit;
+
+            display: flex;
+            align-items: center;
+           
+            .second__bttn{
+                color:#3f4064;
+                font-size:14px;
+                text-decoration: none;
+                display: flex;
+                align-items: center;
+                word-spacing:1px;
+                .list_icon{
+                    width:20px;
+                    height:20px;
+
+    
+                }
+              
+            }
+        }
+        }
+        
+        }
+
+
+    .left_bttn{
+        width:190px;
+        height: inherit;
+       
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left:10px;
+        position: absolute;
+        left: 0%;
+     
+        .showcity{
+            font-size:12px;
+            color: #62666D;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            .city__icon{
+                fill: #62666D;
+                width:20px;
+                height:20px;
+                margin-left:8px ;
+            }
+
+        }
+    }
+    
+}
+}

@@ -1,0 +1,155 @@
+.fpart{
+    width: 1336px;
+    height: 420px;
+
+    margin: 12px auto;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #d2d5df;
+    border-radius: 14px;
+    
+
+    .fp{
+        width:334px;
+        height: 419;
+        
+        border-left:1px solid #d2d5df;
+        display: flex;
+        flex-flow:column nowrap;
+        align-items: center;
+       &:nth-of-type(1)
+       {
+        border-radius:0 12px 12px 0;
+       }
+       &:nth-last-of-type(1)
+       {
+
+        border-radius: 12px 0 0 12px;
+       border: none;
+    }
+  .introduction{
+    width:300px;
+    height: 60px;
+    
+    margin: 5px 16px;
+    .t1{
+        font-size: 16px;
+        color: black;
+        font-weight: 500;
+        line-height: 33px;
+    }
+    .t2{
+        font-size:11px;
+        color: #d2d5df;
+        line-height: 23px;
+
+    }
+  }
+  .intropic{
+    width: 290px;
+    height: 290px;
+    display: grid;
+    grid-template-columns: repeat(2,145px);
+    grid-template-rows: repeat(2,145px);
+    align-content: center;
+
+    gap: 1px;
+    background-color: #d2d5df;
+   
+    .pg{
+        
+        width: 145px;
+        height: 145px;
+        display: flex;
+        a{
+          width:145px;
+          height:145px;
+          display: flex;
+        
+          position: relative;
+          .forg1{
+            display: flex;
+            width: 130px;
+            height: 130px;
+        
+            position: absolute;
+            left:8px;
+            bottom: 8px;
+          }
+          
+          }
+          a{
+            width:145px;
+            height:145px;
+            display: flex;
+          
+            position: relative;
+            .forg2{
+              display: flex;
+              width: 130px;
+              height: 130px;
+              position: absolute;
+              right:8px;
+              bottom: 8px;
+            }
+        }
+        a{
+          width:145px;
+          height:145px;
+          display: flex;
+        
+          position: relative;
+          .forg3{
+            display: flex;
+            width: 130px;
+            height: 130px;
+            position: absolute;
+            right:8px;
+            top: 8px;
+          }
+      }
+      a{
+        width:145px;
+        height:145px;
+        display: flex;
+        background-color:white;
+      
+        position: relative;
+        .forg4{
+          display: flex;
+          width: 130px;
+          height: 130px;
+          position: absolute;
+          right:8px;
+          bottom: 8px;
+        }
+    }
+
+        
+    }
+  
+  }
+    .morethan{
+      width: 100px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      a{
+        display: flex;
+        color: #19BFD3;
+        font-size: 12px;
+        text-decoration: none;
+        font-weight:550;
+        svg{
+          width: 18px;
+          height: 18px;
+          fill: #19BFD3;
+        }
+
+      }
+    }
+}
+    
+
+}

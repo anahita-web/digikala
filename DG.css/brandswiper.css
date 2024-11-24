@@ -1,0 +1,55 @@
+.swiper_brand{
+    width:1336px;
+    height: 224px;
+    
+    padding: 24px 0;
+    margin: 0 auto;
+    margin-bottom: 12px;
+    border-radius: 16px;
+    border: 1px solid #d2d5df;
+    .main_swiperbrand{
+        width:1336px;
+        height: 180px;
+         
+     
+        
+        .titlebrand{
+            width:inherit;
+            height: 44px;
+           
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            svg{
+                width: 24px;
+                height: 24px;
+                fill: yellow;
+
+            }
+        p{
+            font-size: 21px;
+
+        }
+        }
+        .brand{
+            width: 1336px;
+            height:118px;
+            background-color: #d2d5df;
+        
+        .swiper-slide{
+            width: 142px;
+            height: 120px;
+       
+            padding: 4px 16px;
+            img{
+                width: 100px;
+                height: 100px;
+
+            }
+
+        } 
+
+        }
+    }
+
+}

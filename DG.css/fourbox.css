@@ -1,0 +1,117 @@
+.fourbox{
+    width: 1336px;
+    height: 242px;
+  
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+
+    .box{
+        width: 323px;
+        height: 242px;
+    
+        border-radius: 20px;
+        object-fit: cover;
+        img{
+            width: 323px;
+            height: 242px;
+            border-radius: 20px;
+        }
+    }
+}
+.categ{
+    width: 1336px;
+    height: 70px;
+    background-color:transparent;
+    margin: 16px auto;
+    font-size: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+.catekala{
+    width: 1179px;
+    height: 320px;
+    margin: 0 auto;
+    
+    grid-template-columns: repeat(8 , 1fr);
+    grid-template-rows:repeat(2,1fr) ;
+    display: grid;
+    .cat{
+        
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    row-gap:12px;
+    padding: 0 16px;
+    img{
+        width: 100px;
+        height: 100px;
+
+    }
+    span{
+        font-size: 12px;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;  
+        overflow: hidden;
+        text-align: center;
+
+
+    }
+    }
+}
+.twobox{
+    width: 1336px;
+    height: 265px;
+    
+    display: flex;
+    justify-content: space-between;
+    margin: 40px auto;
+    margin-bottom: 12px;
+    .tb{
+        width: 660px;
+        height: inherit;
+      
+        border-radius: 16px;
+        img{
+            width: 660px;
+            height: inherit;
+            border-radius: 16px;
+        }
+       
+    }
+}
+.w{
+    width: 1336px;
+    height: 265px;
+    
+    display: flex;
+    justify-content: space-between;
+    margin: 40px auto;
+    margin-bottom: 12px;
+    .ww{
+        width: 660px;
+        height: inherit;
+      
+        border-radius: 16px;
+        img{
+            width: 660px;
+            height: inherit;
+            border-radius: 16px;
+        }
+       
+    }
+    
+
+
+
+}
+.blackswip{
+    width: 1336px;
+    height: 800px;
+    background-color: black;
+    margin: 0 auto;
+}

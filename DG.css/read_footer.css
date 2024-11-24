@@ -1,0 +1,80 @@
+.reading{
+    width: 1336px;
+    height: 370px;
+   
+    margin: 16px auto;
+    .headread{
+        width:100%;
+        height: 65px;
+        padding:0 20px;
+      
+        display: flex;
+        .read{
+            width: 150px;
+            height:inherit;
+           
+            justify-self: start;
+            font-size: 16px;
+            display: flex;
+            align-items: center;
+
+        }
+        .meg{
+            width:190px;
+            height: inherit;
+            margin-right: auto;
+            font-size:12px;
+            display: flex;
+            align-items: center;
+            color: rgb(10, 167, 167);
+            justify-content: center;
+            
+            svg{
+                width: 18px;
+                height: 30px;
+                fill: rgb(34, 142, 142);
+
+               
+            }
+        }
+    }
+
+.main_reading{
+width: 100%;
+height: 280px;
+
+display: flex;
+justify-content: space-between;
+border-radius: 8px;
+
+.readp{
+
+    width: 320px;
+    height:280px;
+    border-radius:16px;
+    border: 1px solid #2b2b2b;
+    img{
+        width: 318px;
+        height:200px;
+        border-radius:16px 16px 0px 0px;
+    }
+    .re{
+        width: 320px;
+        height: 52px;
+        padding: 8px 18px;
+        font-size: 12px;
+    }
+}
+}
+
+
+
+
+
+}
+.lline{
+width: 100%;
+height: 1px;
+background-color: #2b2b2b;
+
+}
